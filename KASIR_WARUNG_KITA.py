@@ -109,7 +109,7 @@ def transaksi():
 
                 if jumlah > produk['stok']:
                     print(
-                        f"Stok tidak cukup. "
+                        f"Maaf stok tidak cukup. "
                         f"Tersedia: {produk['stok']}"
                     )
                     continue
@@ -259,7 +259,9 @@ while True:
 
     print("""
 =================================
-      APLIKASI KASIR WARUNG
+         SELAMAT DATANG
+              DI
+  APLIKASI KASIR WARUNG KITA
 =================================
 1. Tampilkan Katalog
 2. Tambah Produk
